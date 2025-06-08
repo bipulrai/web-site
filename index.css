@@ -1,0 +1,519 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.upnav {
+    display: flex;
+    justify-content: center;
+}
+
+.option {
+    margin: 1rem 0 0 3rem;
+    padding: 1rem;
+
+}
+
+img[ alt="logo"] {
+    height: 2%;
+    margin-top: 1%;
+    padding-left: 2rem;
+}
+
+.opt,
+input {
+    color: gray;
+    cursor: pointer;
+    border: 2px solid rgb(204, 202, 202);
+    border-collapse: collapse;
+    border-radius: 4px;
+    padding: 5px 0 5px;
+}
+
+input {
+    padding: 5px 20rem 5px 0;
+}
+
+/* -----, */
+i {
+    font-size: 150%;
+    margin-right: 0.5rem;
+    color: aqua;
+}
+
+.side button {
+    padding: 7px 25px;
+    border: none;
+    cursor: pointer;
+    margin-top: 2rem;
+    background-color: #fff;
+    margin-left: 5rem;
+}
+
+.side a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #fff;
+    margin-left: 5rem;
+}
+
+.side .in {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    z-index: 99;
+}
+
+.side:hover .in {
+    display: block;
+}
+
+.side a:hover {
+    color: aqua;
+}
+
+/* wish */
+.wishlist button {
+    padding: 7px 25px;
+    border: none;
+    cursor: pointer;
+    margin-top: 2rem;
+    background-color: #fff;
+}
+
+.wishlist a {
+    text-decoration: none;
+    color: black;
+}
+
+/* --cart-- */
+.cart button {
+    padding: 7px 25px;
+    border: none;
+    cursor: pointer;
+    margin-top: 2rem;
+    background-color: #fff;
+}
+
+.cart a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #fff;
+}
+
+.cart .checkout {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    z-index: 99;
+}
+
+.cart:hover .checkout {
+    display: block;
+}
+
+.cart a:hover {
+    color: aqua;
+}
+
+/* --end of head1--- */
+/* --start of head2-- */
+.head ul {
+    display: flex;
+    list-style: none;
+    /* justify-content: center; */
+}
+
+.home button {
+    padding: 7px 25px;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    background-color: #fff;
+    font-size: 1.1rem;
+}
+
+.home a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #fff;
+}
+
+.home:hover a {
+    color: aqua;
+}
+
+.Categories button {
+    padding: 7px 25px;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    background-color: #fff;
+    font-size: 1.1rem;
+}
+
+.Categories a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #fff;
+}
+
+.Categories .catego {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    z-index: 99;
+}
+
+.Categories:hover .catego {
+    display: block;
+}
+
+.Categories a:hover {
+    color: aqua;
+}
+
+.products button {
+    padding: 7px 25px;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    background-color: #fff;
+    font-size: 1.1rem;
+}
+
+.products a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #fff;
+}
+
+.products .prod {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    z-index: 99;
+}
+
+.products:hover .prod {
+    display: block;
+}
+
+.products a:hover {
+    color: aqua;
+}
+
+.page button {
+    padding: 7px 25px;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    background-color: #fff;
+    font-size: 1.1rem;
+}
+
+.page a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #fff;
+}
+
+.page .pag {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    z-index: 99;
+}
+
+.page:hover .pag {
+    display: block;
+}
+
+.page a:hover {
+    color: aqua;
+}
+
+
+
+.Blog button {
+    padding: 7px 25px;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    background-color: #fff;
+    font-size: 1.1rem;
+}
+
+.Blog a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #fff;
+}
+
+.Blog .blo {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    z-index: 99;
+}
+
+.Blog:hover .blo {
+    display: block;
+}
+
+.Blog a:hover {
+    color: aqua;
+}
+
+.offers button {
+    padding: 7px 25px;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    background-color: #fff;
+    font-size: 1.1rem;
+}
+
+.offers a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #fff;
+}
+
+.city {
+    padding: 10px 1rem 10px 1rem;
+    margin-left: 40%;
+}
+
+/* ---END  OF THE HEADER--- */
+/* ---start of main--- */
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    /* background: #000; */
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+swiper-container {
+    width: 100%;
+    height: 100vh;
+}
+
+swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #F8F8FB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text {
+    font-size: larger;
+    /* text-align: center; */
+    /* justify-items: center; */
+    width: 700px;
+}
+
+p {
+    color: rgb(182, 181, 181);
+}
+
+span {
+    color: rgb(146, 146, 228);
+}
+
+.but {
+    margin-right: 17rem;
+    margin-top: 5rem;
+    padding: 1rem;
+    border-radius: 14px;
+    font-size: 18px;
+    border: 2px solid rgb(210, 210, 210);
+    color: rgb(148, 147, 147);
+}
+
+/* ---End Of swip--- */
+.Day {
+    margin: 5rem;
+}
+
+.produ {
+    display: flex;
+}
+
+.apple {
+    height: 42vh;
+    width: 20vw;
+    border: 2px solid rgb(205, 205, 205);
+    text-align: center;
+    cursor: pointer;
+}
+
+.apple img {
+    height: 35vh;
+    width: 20vw;
+}
+
+.apple a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* ---footer--- */
+footer {
+    background-color: #F8F8FB;
+    justify-items: center;
+    position: static;
+    bottom: 100%;
+}
+.pra{
+    display: flex;
+}
+
+.parent {
+    /* display: flex; */
+    margin: 0;
+    padding: 0;
+}
+.parent a {
+    text-decoration: none;
+    color: black;
+}
+.child a{
+    text-decoration: none;
+    color: black;
+}
+/* --Register-- */
+.regi {
+
+}
+
+.re {
+    border: 2px solid;
+    justify-items: center;
+    margin: 2rem;
+    padding: 2rem;
+}
+.re input {
+    margin-top: 1rem;
+}
+#address{
+    padding-left: 485px;
+}
+
+.re #con {
+    padding: 10px 5rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid rgb(210, 210, 210);
+}
+#con:hover {
+    box-shadow: 2px 2px 15px red;
+}
+
+.re #log{
+    color: white;
+    background-color: rgb(102, 102, 206);
+    justify-items: center;
+    border: none;
+}
+/* ---END OF REGISTER--- */
+/* ---CHECK OUT --- */
+.pay{
+    display: flex;
+}
+.summary{
+    margin: 2rem;
+    border: 2px solid rgb(180, 180, 180);
+    padding: 1rem;
+    border-radius: 15px;
+}
+.sub{
+    display: flex;
+}
+.sub .money{
+    margin-left: 21rem;
+}
+.sub .money1{
+    margin-left: 18rem;
+}
+.sub p{
+    color: rgb(169, 168, 168);
+    padding-top: 1rem;
+}
+.sub .red{
+    color: red;
+}
+.cop{
+    margin-top: 1rem;
+}
+.summary input{
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+.sub .money2 {
+    margin-left: 20rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* --new costumer-- */
+.NewCustomer{
+    margin: 2rem;
+    border: 2px solid rgb(180, 180, 180);
+    padding: 2rem;
+    border-radius: 15px;
+
+}
+.NewCustomer input{
+    margin-top: 1rem;
+    padding-left: 10rem;
+}
+.NewCustomer h3 {
+    margin-top: 1rem;
+}

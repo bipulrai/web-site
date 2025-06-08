@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>t</title>
+    <!-- local css -->
+    <link rel="stylesheet" href="./index.css">
+    <!-- font asome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="upnav">
+                <img src="./assets/logo.png" alt="logo">
+                <div class="option">
+                    <form>
+                        <select name="vegetables" class="opt">
+                            <option value="vegetables">vegetables</option>
+                            <option value="Barkery">Barkery</option>
+                            <option value="Cold Drinks">Cold Drinks</option>
+                            <option value="Fruits">Fruits</option>
+                            <input type="search" placeholder="search">
+                        </select>
+                    </form>
+                </div>
+                <div class="side">
+                    <button><i class="fa-regular fa-user"></i>Account</button>
+                    <div class="in">
+                        <a href="./register.html">register</a>
+                        <a href="./checkout.html">Checkout</a>
+                        <a href="">Loing</a>
+                    </div>
+                </div>
+                <div class="wishlist">
+                    <button><a href=""><i class="fa-regular fa-star"></i>Wishlist</a></button>
+                </div>
+                <div class="cart">
+                    <button><i class="fa-solid fa-cart-shopping"></i>cart</button>
+                    <div class="checkout">
+                        <a href="./checkout.html">Checkout</a>
+                        <a href="">Viwe Cart</a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </nav>
+    </header>
+    <header2>
+        <nav>
+            <div class="head">
+                <ul>
+                    <li class="home"><button><a href="./home.html">Home</a></button></li>
+                    <li class="Categories"><button><a href="">Categories</a></button>
+                        <div class="catego">
+                            <a href="">classic</a>
+                            <hr>
+                            <a href="">left sidebar1</a>
+                            <a href="">left sidebar2</a>
+                            <a href="">left sidebar3</a>
+                            <a href="">left sidebar4</a>
+                            <a href="">left sidebar5</a>
+                        </div>
+                    </li>
+                    <li class="products"><button><a href="">Products</a></button>
+                        <div class="prod">
+                            <a href="">products page</a>
+                            <a href="">products page</a>
+                            <a href="">products page</a>
+                            <a href="">products page</a>
+                        </div>
+                    </li>
+                    <li class="page"><button><a href="">Page</a></button>
+                        <div class="pag">
+                            <a href="">About Us</a>
+                            <a href="">Contact Us</a>
+                            <a href="">Cart</a>
+                            <a href="">Checkout</a>
+                            <a href="">compare</a>
+                            <a href="">FAQ</a>
+                            <a href="">Login</a>
+                            <a href=""> Register</a>
+                        </div>
+
+                    </li>
+                    <li class="Blog"><button><a href="">Blog</a></button>
+                        <div class="blo">
+                            <a href="">left Sidebar</a>
+                            <a href="">left Sidebar</a>
+                            <a href="">left Sidebar</a>
+                            <a href="">left Sidebar</a>
+                            <a href="">left Sidebar</a>
+                            <a href="">left Sidebar</a>
+                        </div>
+                    </li>
+                    <li class="offers"><button><a href="">Offers</a></button></li>
+                    <select name="surat" id="surat" class="city">
+                        <option value="surat">Surat</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Rajkot">Rajkot</option>
+                        <option value="Udaipur">Udaipur</option>
+                    </select>
+                </ul>
+                <hr>
+            </div>
+        </nav>
+    </header2>
+    <main>
+        <swiper-container class="mySwiper" loop="true" pagination="true" pagination-clickable="true" navigation="true"
+            space-between="30" centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="false">
+            <swiper-slide id="home">
+                <div class="text">
+                    <p>Flat 30% Off</p>
+                    <h1>Explore <span>Health</span> <br>and Fresh Fruits</h1>
+                    <button class="but">Shop Now</button>
+                </div>
+                <div>
+                    <img src="./assets/hero-1.png" alt="">
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <div class="text">
+                    <p>Flat 30% Off</p>
+                    <h1>Explore <span>Warm</span><br>Fast Food & snacks</h1>
+                    <button class="but">Shop Now</button>
+                </div>
+                <div><img src="./assets/hero-2.png" alt=""></div>
+            </swiper-slide>
+            <swiper-slide>
+                <div class="text">
+                    <p>Flat 20% Off</p>
+                    <h1>Explore <span>Organic</span><br>& Fresh Vegetables</h1>
+                    <button class="but">Shop Now</button>
+                </div>
+                <div>
+                    <img src="./assets/hero-3.png" alt="">
+                </div>
+            </swiper-slide>
+        </swiper-container>
+        <!-- End of swip -->
+        <div class="Day">
+            <h2>Day Of The Deal</h2>
+            <p>Don't wait. The time will never be just right</p>
+            <div class="produ">
+                <div>
+
+                </div>
+                <div class="apple">
+                    <img src="./assets/probuts/1.jpg" alt="">
+                    <hr>
+                    <p>chocos</p>
+                    <a href="">Mixed Fruits Chocolates</a>
+                    <h3>$20 <del>$30.00</del></h3>
+
+                </div>
+                <div class="apple">
+                    <img src="./assets/probuts/1.jpg" alt="">
+                    <hr>
+                    <p>chocos</p>
+                    <a href="">Mixed Fruits Chocolates</a>
+                    <h3>$20 <del>$30.00</del></h3>
+
+                </div>
+                <div class="apple">
+                    <img src="./assets/probuts/1.jpg" alt="">
+                    <hr>
+                    <p>chocos</p>
+                    <a href="">Mixed Fruits Chocolates</a>
+                    <h3>$20 <del>$30.00</del></h3>
+
+                </div>
+                <div class="apple">
+                    <img src="./assets/probuts/1.jpg" alt="">
+                    <hr>
+                    <p>chocos</p>
+                    <a href="">Mixed Fruits Chocolates</a>
+                    <h3>$20 <del>$30.00</del></h3>
+
+                </div>
+                <div class="apple">
+                    <img src="./assets/probuts/1.jpg" alt="">
+                    <hr>
+                    <p>chocos</p>
+                    <a href="">Mixed Fruits Chocolates</a>
+                    <h3>$20 <del>$30.00</del></h3>
+
+                </div>
+                <div class="apple">
+                    <img src="./assets/probuts/1.jpg" alt="">
+                    <hr>
+                    <p>chocos</p>
+                    <a href="">Mixed Fruits Chocolates</a>
+                    <h3>$20 <del>$30.00</del></h3>
+
+                </div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h2>Brands Directory</h2><br>
+        <div class="pra">
+            <div class="parent">
+                <h3>Jewellery :</h3>
+                <a href="">Necklace</a>|
+                <a href="">Earrings</a>|
+                <a href=""> Couple Rings</a>|
+                <a href="">Pendants</a>|
+                <a href="">Crystal</a>|
+                <a href="">Bangles</a>|
+                <a href="">Bracelets</a>|
+                <a href="">Nose Pin</a>|
+                <a href="">Chain</a>|
+                <a href="">Earrings</a>|
+                <a href="">Couple Rings</a>|
+            </div>
+            <div class="child">
+                <h3>Footwear :</h3>
+                <a href="">Sport</a>|
+                <a href="">Formal </a>|
+                <a href="">Boots</a>|
+                <a href="">Casual </a>|
+                <a href="">Cowboy Shoes </a>|
+                <a href="">Safety Shoes </a>|
+                <a href="">Party Wear Shoes </a>|
+                <a href="">Branded</a>|
+                <a href="">First Copy</a>|
+                <a href="">Long Shoes</a>|
+            </div>
+            <br>
+            <div class="child">
+                <h3>Fashion</h3>
+                <a href="">T-Shirt</a>|
+                <a href="">Short & Jeans</a>|
+                <a href="">Jacket</a>|
+                <a href="">Dress & Frock</a>|
+                <a href="">Inner Wear </a>|
+                <a href="">Hosiery </a>|
+            </div>
+            <div class="child">
+                <h3>Cosmetics :</h3>
+                <a href="">Shampoo </a>|
+                <a href="">Body </a>|
+                <a href="">Face Wash</a>|
+                <a href="">Makeup Kit</a>|
+                <a href="">Liner </a>|
+                <a href="">Perfume </a>|
+                <a href="">Body Shop </a>|
+                <a href="">Scrub</a>|
+                <a href="">Hair Gel </a>|
+                <a href="">Hair COlors </a>|
+                <a href="">Hair Dye </a>|
+                <a href="">Sunscreen</a>|
+                <a href="">Skin Lotion </a>|
+                <a href="">Liner</a>|
+                <a href="">Lipstick</a>|
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+</body>
+
+</html>
